@@ -12,7 +12,8 @@ void main() {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
-        brightness: Brightness.dark
+        brightness: Brightness.dark,
+        fontFamily: 'Poppins'
       ),
       home: const NotesView(),
     );
