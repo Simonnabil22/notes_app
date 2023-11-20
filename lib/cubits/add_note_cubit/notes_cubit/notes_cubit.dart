@@ -18,6 +18,7 @@ fetchAllNotes()async{
 
      
     notes = notesBox.values.toList();
+    emit(NotesSuccess());
        
      
       
